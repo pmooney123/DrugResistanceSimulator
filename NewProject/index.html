@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Patrick's Project</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src = "vars.js"></script>
+    <script defer src = "script.js"></script>
+</head>
+<body>
+    <div id="canvas-container" class="canvas-container">
+        <canvas id="main-canvas" class="main-canvas">
+
+        </canvas>
+    </div>
+    <div id="log" class="log">
+
+    </div>
+    <button type="button" class="button" onclick="desiredFood += 25">Inc Max Food</button>
+    <text id ="desiredFood"></text>
+    <button type="button" class="button" onclick="desiredFood -= 25">Dcr Max Food</button>
+    <button type="button" class="button" onclick="foodInput += 10">Inc Food In</button>
+    <text id ="foodInput"></text>
+    <button type="button" class="button" onclick="foodInput -= 10">Dcr Food In</button>
+    <br>
+
+    <button type="button" class="button" onclick="desiredAB += 20">Inc Max AntiBio</button>
+    <text id ="desiredAB"></text>
+    <button type="button" class="button" onclick="desiredAB -= 20">Dcr Max AntiBio</button>
+    <button type="button" class="button" onclick="abInput += 10">Inc AntiBio In</button>
+    <text id ="abInput"></text>
+    <button type="button" class="button" onclick="abInput -= 10">Dcr AntiBio In</button>
+    <br>
+    <button type="button" class="button" onclick="mutationChance += 10">Inc Mut%</button>
+    <text id ="mutText"></text>
+    <button type="button" class="button" onclick="mutationChance -= 10">Dcr Mut%</button>
+
+    <br>
+    <text id = "count">def</text>    <br>
+    <text id = "bacteria">def</text>    <br>
+    <text id = "food">def</text>    <br>
+    <text id = "antibiotics">def</text>
+
+</body>
+</html>
